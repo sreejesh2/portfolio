@@ -1,0 +1,75 @@
+.item:hover{
+ color: red;
+}
+.color{
+    color: red;
+}
+*{
+font-family: 'Josefin Sans', sans-serif;
+}
+.sh{
+    box-shadow: rgba(227, 220, 220, 0.56) 0px 22px 70px 4px;
+}
+.item{
+    color: white;
+}
+.butn{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.card img{
+    width: 100%;
+    height: 300px;
+}
+.card {
+    box-shadow: rgba(115, 158, 197, 0.48) 6px 2px 16px 0px, rgba(6, 6, 6, 0.8) -6px -2px 16px 0px;
+    padding: 3%;
+}
+i{
+    color: white;
+}
+.icons{
+    margin-right: 3%;
+    width:5%;
+    height: 8vh;
+    background-color: red;
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.butn:hover{
+    background-color: rgb(205, 18, 18);
+}
+.icons:hover{
+    background-color: rgb(214, 23, 23);
+}
+:root {
+    --animate-duration: 6000ms;
+    --animate-delay:0.1s;
+  }
+   
+  .animate__animated.animate__fadeInLeft {
+    --animate-duration: 1s;
+    --animate-delay:0.9s;
+  }
+  .animate__animated.animate__rotateInDownRight{
+    --animate-duration: 1s;
+    --animate-delay:0.9s;
+  }  
+  .animate__animated.animate__rotateInUpLeft{
+    --animate-duration: 1s;
+    --animate-delay:0.9s;
+  }  
+  .animate__animated.animate__slideInDown{
+    --animate-duration: 1s;
+    --animate-delay:0.9s;
+  }  
+ .carousel-item img {
+    height: 400px;
+ }            
