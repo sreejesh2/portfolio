@@ -49,27 +49,15 @@ i{
 .icons:hover{
     background-color: rgb(214, 23, 23);
 }
-:root {
-    --animate-duration: 6000ms;
-    --animate-delay:0.1s;
-  }
-   
-  .animate__animated.animate__fadeInLeft {
-    --animate-duration: 1s;
-    --animate-delay:0.9s;
-  }
-  .animate__animated.animate__rotateInDownRight{
-    --animate-duration: 1s;
-    --animate-delay:0.9s;
-  }  
-  .animate__animated.animate__rotateInUpLeft{
-    --animate-duration: 1s;
-    --animate-delay:0.9s;
-  }  
-  .animate__animated.animate__slideInDown{
-    --animate-duration: 1s;
-    --animate-delay:0.9s;
-  }  
- .carousel-item img {
-    height: 400px;
- }            
+
+
+ 
+@media(max-width:750px) {
+
+.icons{
+    padding: 30px;
+}
+.hide{
+    display: none;
+}
+}
